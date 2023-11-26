@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+header {
+    position: fixed;
+    z-index: 9999;
+
+    .container {
+        .collapse {
+            ul {
+                li {
+                    a {
+                        color: black;
+                        transition: 1s;
+                        font-weight: 500;
+
+                        &:hover {
+                            color: rgb(40, 182, 232);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#bussinnes {
+    background-image: url("../../../assets/Image/slide-1.jpg");
+    height: 750px;
+    background-position: center 140px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    .bg {
+        opacity: 0.3;
+        background: black;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 750px;
+    }
+
+    .container {
+        .text {
+            color: #fff;
+
+            h4 {
+                z-index: 999 !important;
+            }
+
+            h1 {
+                z-index: 999 !important;
+            }
+
+            p {
+                z-index: 999 !important;
+
+            }
+
+            button {
+                z-index: 999;
+                width: 150px;
+                padding: 10px;
+                background-color: rgb(40, 182, 232);
+                color: #fff;
+                border: none;
+                transition: 1s;
+                border-radius: 8px;
+                border: 1px solid rgb(40, 182, 232);
+
+                &:hover {
+                    color: rgb(40, 182, 232);
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+#devolopment {
+    .row {
+        .col-xl-4 {
+            .logo {
+                transition: 1s;
+                border: 1px solid rgb(40, 182, 232);
+
+                &:hover {
+                    background-color: rgb(40, 182, 232);
+
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+
+            p {
+                width: 90%;
+                text-align: center;
+            }
+
+            button {
+                padding: 10px;
+                background-color: rgb(40, 182, 232);
+                color: #fff;
+                transition: 1s;
+                border: 1px solid rgb(40, 182, 232);
+                transition: 1s;
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: #fff;
+                    color: rgb(40, 182, 232);
+                }
+            }
+        }
+    }
+}
+
+#awasome {
+    background-color: rgb(238, 238, 238);
+
+    .container {
+        .textour {
+            .ourtxt {
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            p {
+                width: 50%;
+                text-align: center;
+            }
+        }
+
+        .row {
+            .col-xl-4 {
+                .box {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#meet {
+    .container {
+        .textour {
+            .ourtxt {
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            p {
+                width: 50%;
+                text-align: center;
+            }
+        }
+
+        .row {
+            .col-xl-3 {
+                .d-flex {
+                    .box-text {
+                        padding: 10px;
+                        font-weight: 500;
+                        color: #fff;
+                        background-color: rgb(40, 182, 232);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    #meet {
+        .container {
+            .row {
+                .col-xl-3 {
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+
+    #devolopment {
+        .row {
+            .col-xl-4 {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
